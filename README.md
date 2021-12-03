@@ -154,3 +154,26 @@ function unicodeStr(str){
 
 console.log(unicodeStr('Developer'));
 ```
+
+Challenge 12: Find the sum of natural numbers from 1 to n...
+```js
+var sum = addNum(10);
+
+function addNum(n) {
+  if (n == 0) return 0;                             //Recursion method
+  return n + addNum(n - 1);
+}
+console.log(sum);
+```
+
+Challenge 13: Find the factorial of n numbers...
+```js
+var multi = multi(10);
+
+function multi(n) {                                 //Recursion method
+  if (n <= 1) return 1;
+
+  return n * multi(n - 1);
+}
+console.log(multi);
+```
