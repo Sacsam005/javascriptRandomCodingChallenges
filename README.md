@@ -2,6 +2,8 @@
 
 ####  Scrambled difficulty levels 😮🤓🧐
 
+> <img src="https://github.com/Sacsam005/javascriptRandomCodingChallenges/blob/main/work-on-web-development-with-full-passion.jpg?raw=true" width="75%">
+
 Challenge 1: Sum of any two numbers
 ```js
 var a, b;
