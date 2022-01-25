@@ -179,3 +179,10 @@ function multi(n) {                                 //Recursion method
 }
 console.log(multi);
 ```
+
+Challenge 14: Write a code ot generate a random letter from your name...
+```js
+var myName = "Mathematics";
+
+console.log(myName.charAt(Math.floor(Math.random() * myName.length)));
+```
